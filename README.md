@@ -11,7 +11,7 @@ Small Business Administration(SBA) is an agency of the Federal Government that e
 
 This Streamlit App utilizes a Machine Learning model in order to predict if a loan will be paid in full or no,  based on the following criteria: type of industry, number of business employees, amount disbursed by the bank, Gross Amount of Loan Approved by Bank, SBA's Guaranteed Amount of Approved Loan and Loan term in months. 
 
-The App can be viewed through this ![link]()
+The App can be viewed through this [link]()
 
 ## **Data Preparation**
 The original data set is from the U.S.SBA loan database, which includes historical data from 1987 through 2014 (899,164 observations) with 27 variables. The data set includes information on whether the loan was paid off in full or if the SBA had to charge off any amount and how much that amount was. 
@@ -25,7 +25,7 @@ According to Li, Mickel, & Taylor 2018, the project filtered the  original datas
 - Default(Target)
 
 
-![Dataset link](https://amstat.tandfonline.com/doi/full/10.1080/10691898.2018.1434342)
+[Dataset link](https://amstat.tandfonline.com/doi/full/10.1080/10691898.2018.1434342)
 
 ## **Modelling**
 
@@ -34,4 +34,6 @@ In this project 3 different classification algorithms were tested namely:
 - Random Forest
 - Extra Tree
 - XGBoots
+
+The final model used for the App was the XGBoost Classifier model which had an accuracy score of 0.95 and an ROC-AUC score of 0.94.
 
