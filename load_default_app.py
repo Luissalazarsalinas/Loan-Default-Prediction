@@ -6,7 +6,7 @@ import xgboost as xgb
 
 
 # Title
-st.title("Loan Defaul Prediction App")
+st.title("Loan Default Prediction App")
 
 st.image("img/image.jpg")
 
