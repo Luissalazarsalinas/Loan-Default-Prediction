@@ -1,8 +1,6 @@
 # **Loan Default Prediction**
 
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)](https://www.tensorflow.org/)
-[![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)](https://keras.io/)
 [![streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://streamlit.io/)
 [![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)](https://www.heroku.com/platform)
 
@@ -11,7 +9,7 @@ An end-to-end Machine Learning Project to predict Loan Default.
 ## **Problem Statement**
 Small Business Administration(SBA) is an agency of the Federal Government that exists to serve, support, and protect the interests of small businesses. One way SBA assist these small business enterprises is through a loan guarantee program which is designed to encourage the bank to grant loans to small business. But, since SBA loans only guarantee a portion of the entire loan balance, banks will incur some losses if a small business defaults on its SBA-guaranteed loan. Therefore, banks are still faced with a difficult choice as to whether they should grant such a loan because of the high risk of default. One way to uniform their decision-making is through analyzing relevant historical data.
 
-This Streamlit App utilizes a Machine Learning model in order to predict if a loan will be paid in full or no,  based on the following criteria: type of industry, number of business employees, amount disbursed by the bank, Gross Amount of Loan Approved by Bank, SBA's Guaranteed Amount of Approved Loan and Loan term in months. 
+This Streamlit App utilizes a Machine Learning model to predict if a loan will be paid in full or not, based on the following criteria: type of industry, number of business employees, the amount disbursed by the bank, Gross Amount of Loan Approved by Bank, SBA's Guaranteed Amount of Approved Loan and Loan term in months. 
 
 The App can be viewed through this [link](https://loan-default-app.herokuapp.com)
 
