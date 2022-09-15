@@ -37,6 +37,6 @@ In this project 3 different classification algorithms were tested namely:
 
 The final model used for the App was the XGBoost Classifier model which had an accuracy score of 0.95 and an ROC-AUC score of 0.94
 
-# **Deploy**
-The Streamlit App was beployed on Heroku
+## **Deploy**
+The Streamlit App was deployed on Heroku
 
