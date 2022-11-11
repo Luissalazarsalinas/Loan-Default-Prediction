@@ -48,7 +48,7 @@ Final model performance with the test set:
  - ROC-AUC: 0.94
  
  Feature importance
- ![image](https://github.com/Luissalazarsalinas/Fraud-Detection/blob/master/img/Feature_importance.png)
+ ![image](https://github.com/Luissalazarsalinas/Loan-Default-Prediction/blob/master/img/Feature_importance.png)
 The variables that contribute most to the XGBoost final model were:
  - RealState
  - Term
