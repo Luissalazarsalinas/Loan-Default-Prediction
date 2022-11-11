@@ -28,16 +28,67 @@ According to Li, Mickel, & Taylor 2018, the project filtered the  original datas
 
 [Dataset link](https://amstat.tandfonline.com/doi/full/10.1080/10691898.2018.1434342)
 
-## **Modelling**
+## Modelling 
+Machine Learning Algorithms that were tested:
+ - LogisticRegression - Baseline
+ - Random Forest 
+ - Extra Tree
+ - XGBoost
 
-In this project 3 different classification algorithms were tested namely:
-- Logistic Regression (Base Line)
-- Random Forest
-- Extra Tree
-- XGBoots
+Xgboost was the model with better performance with the validation set:
+ - Accuracy: 0.95
+ - F1-Score: 0.90
+ - ROC-AUC: 0.93
+ 
+Xgboost was chosen as the final model, and its hyperparameters were optimized using hyperopt(library) with a Bayesian optimization as search strategy.
 
-The final model used for the App was the XGBoost Classifier model which had an accuracy score of 0.95 and an ROC-AUC score of 0.94
+Final model performance with the test set:
+ - Accuracy: 0.96
+ - F1-Score: 0.91
+ - ROC-AUC: 0.94
+ 
+ Feature importance
+ ![image](https://github.com/Luissalazarsalinas/Fraud-Detection/blob/master/img/Feature_importance.png)
+The variables that contribute most to the XGBoost final model were:
+ - RealState
+ - Term
+ - Recession
+These variables could be good predictors to detect fraud in credit card transactions.
 
-## **Deploy**
-The Streamlit App was deployed on Heroku
+## Deployment
+The API was deployed using docker container on Heroku and the Streamlit App was deployed on Streamlit Cloud
+
+<details> 
+  <summary><b>💻 Deploying the API</b></summary>
+
+1. Heroku logging 
+
+```
+Heroku login
+```
+
+2. Create a heroku app
+
+```
+heroku create <app-name> 
+```
+
+3. Set the heroku cli git remote to that app
+
+``` 
+heroku git:remote <app-name>
+```
+
+4. Set the heroku stack setting to container
+
+```
+heroku stack:set container
+```
+
+5. Push to herokuPush to heroku
+ 
+```
+git push heroku branch <master/main>
+```
+</details>
 
